@@ -1,4 +1,5 @@
-import './App.css';
+import React from 'react';
+import Fieldset from './components/Fieldset';
 
 function App() {
   const posts = [
@@ -28,11 +29,7 @@ function App() {
     <div className="App">
       <h1>Forum App</h1>
       {posts.map((post, index) => (
-        <fieldset>
-          <p>{post.post}</p>
-          <button>Šamar</button>
-          <button>Aplauz</button>
-        </fieldset>
+        <Fieldset post={post.post} key={index} />
       ))}
     </div>
   );

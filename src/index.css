@@ -10,8 +10,30 @@ body {
   color: white;
 }
 
+h1 {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
 button {
   float: right;
   margin-left: 25px;
   margin-right: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+fieldset {
+  padding: 5px;
+}
+
+.footer {
+  float: right;
+}
+
+.footer p {
+  margin-right: 45px;
+  margin-top: 5px;
+  color: yellow;
 }

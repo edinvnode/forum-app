@@ -37,3 +37,9 @@ fieldset {
   margin-top: 5px;
   color: yellow;
 }
+
+#ispis {
+  float: right;
+  margin-right: 25px;
+  color: red;
+}

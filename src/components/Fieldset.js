@@ -32,7 +32,16 @@ const Fieldset = (props) => {
         <button onClick={handleAplauz} disabled={isAplauzDisabled}>
           Aplauz
         </button>
-        <p id="ispis"></p>
+        <p id="ispis">
+          {isShamarDisabled && (
+            <span style={{ color: 'red' }}>Post je dobio samar od admina</span>
+          )}
+          {isAplauzDisabled && (
+            <span style={{ color: 'green' }}>
+              Post je dobio aplauz od admina
+            </span>
+          )}
+        </p>
         <br></br>
         <span class="korisnik">Napisao {username} | 25/12/2020</span>
       </fieldset>

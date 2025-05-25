@@ -33,6 +33,9 @@ function App() {
         <div className="footer">
           <p>Broj bodova: {count}</p>
         </div>
+        <div className="next-page">
+          <p>Prethodna stranica (5/90) Sljedeća stranica</p>
+        </div>
       </div>
     </CountContext.Provider>
   );

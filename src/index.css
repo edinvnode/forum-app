@@ -43,3 +43,9 @@ fieldset {
   margin-right: 25px;
   color: red;
 }
+
+.next-page {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+}
